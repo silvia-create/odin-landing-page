@@ -1,0 +1,126 @@
+body{
+    font-family: "Roboto", san-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 90px;
+    background-color: #1F2937;
+}
+.header-logo{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 90px;
+    background-color: #1F2937;
+    gap: 50px;
+}
+.hero-main-text{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.hero-secondary-text{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    border:none;
+    padding: 5px 16px;
+    font-size: 18px;
+}
+.feature{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 150px;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.feature-title{
+    font-size: 30px;
+    font-weight: 800;
+    color: #1F2937;
+}
+.container{
+    display: flex;
+}
+.illustration{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    border: 3px #3882F6 solid;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color:grey ;
+    gap: 8px;
+}
+.quote{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    padding: 100px 230px;
+}
+.name{
+    font-size: 18px;
+    font-weight: 600;
+    color: #1F2937;
+    text-align: end;
+}
+.suggestion{
+    background-color: #3882F6;
+    margin: 70px 150px;
+    padding: 35px 75px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.suggestion-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 5px;
+}
+.suggestion-text{
+    font-size: 15px;
+    color: white;
+}
+.suggestion button{
+    border: 2px white solid;
+}
+.footer{
+    background-color: #1F2937;
+    padding: 20px;
+    text-align: center;
+    color: #E5E7EB;
+}
